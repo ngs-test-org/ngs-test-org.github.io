@@ -11,33 +11,33 @@ css: /assets/css/wps.css
   {% for wp in site.wps %}
 
   <div class="p-2 d-flex align-items-stretch">
-    <div class="card mb-5" style="max-width: 1000px;">
+    <div class="card mb-5" style="width: 900px;">
       <a href="{{ wp.url }}">
       <div class="row no-gutters">
           <div class="col-md-3">
             {% if wp.number == 1 %}
-            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}" style="width:200px;height:200px;">
 
             {% elsif wp.number == 2 %}
-            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}" style="width:200px;height:200px;">
 
             {% elsif wp.number == 3 %}
-            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}" style="width:200px;height:200px;">
 
             {% elsif wp.number == 4 %}
-            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}" style="width:200px;height:200px;">
 
             {% elsif wp.number == 5 %}
-            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}" style="width:200px;height:200px;">
 
             {% elsif wp.number == 6 %}
-            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}" style="width:200px;height:200px;">
 
             {% elsif wp.number == 7 %}
-            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}" style="width:200px;height:200px;">
 
             {% else %}
-            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}" style="width:200px;height:200px;">
 
             {% endif %}
           </div>

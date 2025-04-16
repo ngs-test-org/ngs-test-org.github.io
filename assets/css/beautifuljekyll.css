@@ -20,7 +20,7 @@ layout: null
 
   /* common CSS variables */
   --body-font: 'Lora', 'Times New Roman', serif;
-  --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --header-font: 'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --mid-col: #808080;
 }
 
@@ -684,9 +684,11 @@ footer .footer-custom-content {
 nav.top-nav-short-permanent ~ header > .intro-header {
   margin-top: 5rem;
 }
+
 nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   margin-top: 3.1875rem;
 }
+
 .intro-header.big-img .big-img-transition {
   position: absolute;
   width: 100%;

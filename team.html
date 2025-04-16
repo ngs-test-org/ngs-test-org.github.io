@@ -13,38 +13,38 @@ css: /assets/css/team.css
     <div class="card member">
       <a href="{{ person.url }}">
         {% if person.name == "Adriana Anido Alonso" %}
-        <img src="/assets/img/adriana.png" class="card-img-top" alt="{{ person.name }}">
-        
+        <img src="/assets/img/adriana.png" class="card-img-top" alt="{{ person.name }}" style="width:250px;height:230px;">
+
         {% elsif person.name == "Ángel Fernández Leal" %}
-        <img src="/assets/img/angel.png" class="card-img-top" alt="{{ person.name }}">
+        <img src="/assets/img/angel.png" class="card-img-top" alt="{{ person.name }}" style="width:250px;height:230px;">
         
         {% elsif person.name == "Alejandro Mayorga Redondo" %}
-        <img src="/assets/img/alejandro.png" class="card-img-top" alt="{{ person.name }}">
+        <img src="/assets/img/alejandro.png" class="card-img-top" alt="{{ person.name }}" style="width:250px;height:230px;">
         
         {% elsif person.name == "Diego Álvarez Estévez" %}
-        <img src="/assets/img/diego.png" class="card-img-top" alt="{{ person.name }}">
+        <img src="/assets/img/diego.png" class="card-img-top" alt="{{ person.name }}" style="width:250px;height:230px;">
         
         {% elsif person.name == "David Alonso Ríos" %}
-        <img src="/assets/img/david_alonso.png" class="card-img-top" alt="{{ person.name }}">
+        <img src="/assets/img/david_alonso.png" class="card-img-top" alt="{{ person.name }}" style="width:250px;height:230px;">
         
         {% elsif person.name == "David Vázquez Lema" %}
-        <img src="/assets/img/thumb.png" class="card-img-top" alt="{{ person.name }}">
+        <img src="/assets/img/thumb.png" class="card-img-top" alt="{{ person.name }}" style="width:250px;height:230px;">
         
         {% elsif person.name == "Eduardo Mosqueira Rey" %}
-        <img src="/assets/img/eduardo.png" class="card-img-top" alt="{{ person.name }}">
+        <img src="/assets/img/eduardo.png" class="card-img-top" alt="{{ person.name }}" style="width:250px;height:230px;">
         
         {% elsif person.name == "Samuel Magaz Romero" %}
-        <img src="/assets/img/samuel.png" class="card-img-top" alt="{{ person.name }}">
+        <img src="/assets/img/samuel.png" class="card-img-top" alt="{{ person.name }}" style="width:250px;height:230px;">
         
         {% else %}
-        <img src="/assets/img/vicente.png" class="card-img-top" alt="{{ person.name }}">
+        <img src="/assets/img/vicente.png" class="card-img-top" alt="{{ person.name }}" style="width:250px;height:230px;">
 
         {% endif %}
 
         <div class="card-body">
           <h5 class="card-title">{{ person.name }}</h5>
           <p class="card-text">{{ person.position }}</p>
-          <p class="card-text">{{ person.specialization }}<p>
+          <p class="card-text" style="font-size:80%;">{{ person.specialization }}<p>
         </div>
       </a>
     </div>

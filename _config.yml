@@ -23,8 +23,8 @@ navbar-links:
   About: "about"
   Work Packages: "wps"
   Team: "team"
-  News: "news"
-  #GitHub: "https://github.com/ngs-test-org"
+  # News: "news"
+  # GitHub: "https://github.com/ngs-test-org"
 
 ################
 # --- Logo --- #
@@ -63,7 +63,7 @@ social-network-links:
   # rss: true  # remove this line if you don't want to show an RSS link at the bottom
   # facebook: deanattali
   github: "https://github.com/ngs-test-org"
-  zenodo: "https://zenodo.org/communities/next-gen-somnus/records?q=&l=list&p=1&s=10&sort=newest"
+  # zenodo: "https://zenodo.org/communities/next-gen-somnus/records?q=&l=list&p=1&s=10&sort=newest"
   # twitter: daattali
   # patreon: DeanAttali
   # youtube: "@daattali"
@@ -147,13 +147,13 @@ keywords: "sleep medicine, deep learning, signals processing, quantum machine le
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
 page-col: "#FFFFFF"
-text-col: "#234c51" #"#404040"
-link-col: "#528a92" #"#008AFF"
-# hover-col:  #"#0085A1" 
-# navbar-col:   #"#EAEAEA"
+text-col: "#1f374f" #"#404040"
+link-col:  "#1f374f" #"#008AFF"
+hover-col: "#d1dceb" #"#0085A1" 
+navbar-col:  "#d1dceb"  #"#EAEAEA"
 # navbar-text-col:  #"#404040"
 # navbar-border-col:   #"#DDDDDD"
-# footer-col:  #"#EAEAEA"
+footer-col: "#d1dceb" #"#EAEAEA"
 # footer-text-col: #"#777777"
 # footer-link-col: #"#404040"
 # footer-hover-col: #"#0085A1"
@@ -161,9 +161,9 @@ link-col: "#528a92" #"#008AFF"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-# navbar-img: "/assets/img/bgimage.png"
-# footer-img: "/assets/img/bgimage.png"
-# page-img: "/assets/img/bgimage.png"
+# navbar-img: "/assets/img/polisomnography.png"
+# footer-img: "/assets/img/polisomnography.png"
+# page-img: "/assets/img/Designer.png"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
