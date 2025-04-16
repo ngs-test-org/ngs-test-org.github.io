@@ -13,5 +13,4 @@ El Centro de Investigación en TIC de la Universidade da Coruña (CITIC) lidera 
 
 El proyecto, llamado NEXT-GEN-SOMNUS, busca adaptar modelos cuánticos para clasificar fases del sueño y detectar eventos relevantes, utilizando datos reales y pruebas en simuladores y ordenadores cuánticos. El objetivo principal es acelerar y mejorar el diagnóstico, superando las limitaciones de los métodos actuales, que son costosos y manuales. Además, se integrarán conocimientos de expertos para aumentar la precisión y explicabilidad de los modelos.
 
-
-<a href="https://www.lavozdegalicia.es/noticia/sociedad/2025/02/27/computacion-cuantica-inteligencia-artificial-trastornos-sueno/00031740656564671822506.html">Referencia</a>  
+<a href="https://www.lavozdegalicia.es/noticia/sociedad/2025/02/27/computacion-cuantica-inteligencia-artificial-trastornos-sueno/00031740656564671822506.htm">Referencia</a>  
