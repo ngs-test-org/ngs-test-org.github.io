@@ -1,6 +1,7 @@
 ---
 name: Eduardo Mosqueira Rey
-position:
+position: Research team
+specialization: Attention mechanisms, human-in-the-loop, quantum computing
 image_path:
 bio:
 ---

@@ -1,6 +1,7 @@
 ---
 name: Ángel Fernández Leal
-position:
+position: Research team
+specialization: Human-in-the-loop, biomedical engineering  
 image_path:
 bio:
 ---

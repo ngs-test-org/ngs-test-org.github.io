@@ -1,5 +1,5 @@
 ---
 number: 7
 name: Documentation, dissemination and transfer
-description:
+description: Technical reports and scientific papers.
 ---

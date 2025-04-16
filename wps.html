@@ -1,20 +1,47 @@
 ---
-title: Work Packages
-description: Are you interested in sleep data? The methods? Perhaps explainability? Find below what we do in these fields!
+title: Work packages
+subtitle: Interested in sleep data, analytical methods, or model explainability? Learn more about our research pipeline and contributions in these areas below.
 css: /assets/css/wps.css
 ---
 
 <h3 class="text-center"> {{ page.description }} </h3></br>
 
 <div class="row justify-content-center">
+  
   {% for wp in site.wps %}
+
   <div class="p-2 d-flex align-items-stretch">
-    <div class="card mb-3" style="max-width: 540px;">
+    <div class="card mb-5" style="max-width: 1000px;">
       <a href="{{ wp.url }}">
       <div class="row no-gutters">
-          <div class="col-md-4">
+          <div class="col-md-3">
+            {% if wp.number == 1 %}
             <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+
+            {% elsif wp.number == 2 %}
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+
+            {% elsif wp.number == 3 %}
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+
+            {% elsif wp.number == 4 %}
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+
+            {% elsif wp.number == 5 %}
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+
+            {% elsif wp.number == 6 %}
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+
+            {% elsif wp.number == 7 %}
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+
+            {% else %}
+            <img src="/assets/img/thumb.png" class="card-img" alt="Work Package {{ wp.id }}">
+
+            {% endif %}
           </div>
+
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title">WP{{ wp.number }}: {{ wp.name }}</h5>
@@ -25,5 +52,7 @@ css: /assets/css/wps.css
       </a>
     </div>
   </div>
+
   {% endfor %}
+
 </div>

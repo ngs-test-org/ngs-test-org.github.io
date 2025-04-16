@@ -1,6 +1,7 @@
 ---
 name: Samuel Magaz Romero
-position:
+position: Work team
+specialization: Quantum computing
 image_path:
 bio:
 ---

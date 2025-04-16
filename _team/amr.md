@@ -1,6 +1,7 @@
 ---
 name: Alejandro Mayorga Redondo
-position:
+position: Work team
+specialization:  
 image_path:
 bio:
 ---
