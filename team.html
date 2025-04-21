@@ -1,20 +1,24 @@
 ---
 title: Our team
-description: We've built an amazing, fantastic team of developers, marketers, designers and sales people.
+description:
 css: /assets/css/team.css
 ---
 
 <h3 class="text-center"> {{ page.description }} </h3></br>
 
 <div class="row row-cols-1 row-cols-md-3">
+  
   {% for person in site.team %}
   <div class="p-2 d-flex align-items-stretch">
     <div class="card member">
       <a href="{{ person.url }}">
-        <img src="/assets/img/thumb.png" class="card-img-top" alt="{{ person.name }}">
+
+        <img src="{{ person.image_path }}" class="card-img-top" alt="{{ person.name }}" style="width:250px;height:230px;">
+
         <div class="card-body">
           <h5 class="card-title">{{ person.name }}</h5>
-          <p class="card-text">Team member</p>
+          <p class="card-text">{{ person.position }}</p>
+          <p class="card-text" style="font-size:80%;">{{ person.specialization }}<p>
         </div>
       </a>
     </div>

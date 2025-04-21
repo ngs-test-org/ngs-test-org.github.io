@@ -1,6 +1,7 @@
 ---
 name: Diego Álvarez Estévez
-position:
-image_path:
+position: Research team
+specialization: Attention mechanisms, biomedical engineering  
+image_path: /assets/img/diego.png
 bio:
 ---

@@ -1,6 +1,7 @@
 ---
 name: Alejandro Mayorga Redondo
-position:
-image_path:
+position: Work team
+specialization:  
+image_path: /assets/img/alejandro.png
 bio:
 ---

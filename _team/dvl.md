@@ -1,6 +1,7 @@
 ---
 name: David Vázquez Lema
-position:
-image_path:
+position: Work team
+specialization: Attention mechanisms, human-in-the-loop  
+image_path: /assets/img/thumb.png
 bio:
 ---
